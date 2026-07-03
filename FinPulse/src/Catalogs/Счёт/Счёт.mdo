@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3c10b7e-1d89-416b-9951-e31413b761d9">
+  <producedTypes>
+    <objectType typeId="a962a409-0bde-4ecc-9dca-2ec936f651e6" valueTypeId="fc206947-935f-46a0-bec9-57a368f8f1dc"/>
+    <refType typeId="3174d985-2f6b-4a15-a695-f4a6a5ae4574" valueTypeId="fbf8f658-5dab-495f-ade4-88041f9c7049"/>
+    <selectionType typeId="be3cea62-7412-49ce-80b8-a3473963947c" valueTypeId="aff21dc4-6679-457c-a70e-771f8f695ed4"/>
+    <listType typeId="6265edc8-b37a-4ef3-92a0-b5c94c2f7844" valueTypeId="e776304c-abda-49c3-a215-81649392da47"/>
+    <managerType typeId="def90114-0c60-4013-88a8-a724cacb8309" valueTypeId="2c944d60-1476-4258-bb2d-b54e8eb5bd15"/>
+  </producedTypes>
+  <name>Счёт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счёт</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Счёт.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Счёт.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="42e9ca65-13cb-4bea-a8e0-fab12f001925">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Валюта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d8ad8d08-4a76-4b0c-96d7-b6995eabc9c1">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d3559b25-73f4-4e0a-8646-9bc0d487b7dc">
+    <name>Банк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банк</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

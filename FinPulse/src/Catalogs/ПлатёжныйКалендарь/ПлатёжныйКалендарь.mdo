@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e7ab536-e785-44b0-bb35-ad8591bb9008">
+  <producedTypes>
+    <objectType typeId="4fc7c467-1fff-4fb2-8802-de52496aead1" valueTypeId="08a2a4a3-1aa2-4cf6-891b-5d49c2c7ef68"/>
+    <refType typeId="b853b70c-07ca-4c96-b1ae-88249acdc7fa" valueTypeId="dfc4bdd5-0c12-4537-8b3d-3439f6df3c81"/>
+    <selectionType typeId="cfbfd88b-10ed-4dfc-94be-c25162824015" valueTypeId="917c8fe0-c258-4922-ab26-715d7cb1e27e"/>
+    <listType typeId="4b059be9-2ffa-4e9b-985b-fb5c2c91089e" valueTypeId="8538e1d8-d019-48f1-8339-ab678d1c4841"/>
+    <managerType typeId="f13984f1-2344-4c98-a0c6-f5a4b342de38" valueTypeId="bf2abb4d-5eb9-43b1-9f2f-c9c6f83a338c"/>
+  </producedTypes>
+  <name>ПлатёжныйКалендарь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Платёжный календарь</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПлатёжныйКалендарь.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПлатёжныйКалендарь.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
