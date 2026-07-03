@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9debbb0-b0fd-4326-9623-4c456aed1b91">
+  <producedTypes>
+    <selectionType typeId="7c7ac9c6-d864-42de-90d0-71a0ebc1998c" valueTypeId="730faf46-00d3-4e9e-8925-15ba708dde55"/>
+    <listType typeId="3b751a93-23c4-4300-bcd6-873700b4a7e8" valueTypeId="cfdc9e85-c53d-4460-92c6-6da9958827b6"/>
+    <managerType typeId="ea664e10-5298-4daa-8297-ca4e53c3f96c" valueTypeId="6a102e16-62c3-4f02-942d-ad988f0f26e8"/>
+    <recordSetType typeId="41f5e76d-4f3e-49eb-8fe9-7af9fb9ce78a" valueTypeId="6b524e62-077f-451f-b690-14e566f10f17"/>
+    <recordKeyType typeId="abe430cf-522f-4434-a7e5-4e3d88d6b291" valueTypeId="7a221a23-92a6-494d-83db-7a1c5fdeb678"/>
+    <recordType typeId="6e689849-90cb-49fd-b43b-df85a43d5198" valueTypeId="5b31d849-c6ea-4226-8cc5-987559378e09"/>
+  </producedTypes>
+  <name>ДенежныеСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Денежные средства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="fe27cfbd-b2c4-4409-8746-4435426f306f">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="ccf41cf5-788d-46d9-944f-31e53113d537">
+    <name>Счёт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счёт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Счёт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="df4e5e1e-cade-41b3-b8d6-727cb63d00b6">
+    <name>СтатьяДДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья ДДС</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьяДДС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="82dfa91a-19a1-4b34-be71-7ed3584d3d28">
+    <name>Контраагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контраагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="a21e0410-ee69-4076-b06d-e2c644834728">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="fef685a4-f428-4436-8cc3-f95ac42b4aee">
+    <name>ТипДДс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип ддс</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипДдс</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="495340e1-73f5-438d-adc2-ddd5f1fbfd6e">
+    <name>Измерение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Статус</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

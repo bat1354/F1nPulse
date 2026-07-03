@@ -5,10 +5,10 @@
     <listType typeId="f008e73c-d110-4226-b25a-124e68a50872" valueTypeId="b77ee672-c8c1-4e5b-ae1e-0f59177759cd"/>
     <managerType typeId="7c8b9401-3f30-4c88-a307-7ad494f6f7ea" valueTypeId="46f5c3d1-04bd-4599-9e1f-86655945d486"/>
   </producedTypes>
-  <name>ТипПоступления</name>
+  <name>ТипДдс</name>
   <synonym>
     <key>ru</key>
-    <value>Тип поступления</value>
+    <value>Тип ддс</value>
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>

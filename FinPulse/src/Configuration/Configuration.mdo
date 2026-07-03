@@ -39,10 +39,16 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
-  <catalogs>Catalog.Документ</catalogs>
-  <catalogs>Catalog.ПлатёжныйКалендарь</catalogs>
+  <catalogs>Catalog.Валюта</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.СтатьяДДС</catalogs>
   <catalogs>Catalog.Счёт</catalogs>
-  <enums>Enum.Валюта</enums>
-  <enums>Enum.ТипПоступления</enums>
+  <documents>Document.Документ</documents>
+  <enums>Enum.Статус</enums>
+  <enums>Enum.ТипДдс</enums>
+  <enums>Enum.ТипКалендаря</enums>
+  <reports>Report.ПлатёжныйКалендарь</reports>
+  <reports>Report.СформироватьОтчёт</reports>
+  <accumulationRegisters>AccumulationRegister.ДенежныеСредства</accumulationRegisters>
 </mdclass:Configuration>

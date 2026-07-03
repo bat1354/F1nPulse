@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de9c3526-96cf-467b-8015-4c7034690eb4">
+  <producedTypes>
+    <objectType typeId="e69c0cb5-2b2f-4cf3-949e-7fa45265e05d" valueTypeId="b0924419-1cff-4e4e-9796-7c10e57a14e0"/>
+    <refType typeId="2225eecc-52a5-474f-a7fa-62236a63d0fb" valueTypeId="a4aff5b6-c60b-4f93-a4a2-0b27dbf9936e"/>
+    <selectionType typeId="0a84e720-d1e9-440c-81bd-8f5c005d68b8" valueTypeId="ec88bbd9-a7a3-4621-867d-e671f1957dc3"/>
+    <listType typeId="a8135370-c998-4009-93bc-c29e71bc9172" valueTypeId="dea7f7d8-46e9-45bc-8e0b-5b018b66e5de"/>
+    <managerType typeId="2c897a6b-f877-424a-a253-69cb08e71ce9" valueTypeId="23d4c87a-1afb-4bb5-afab-65caff3de35e"/>
+  </producedTypes>
+  <name>СтатьяДДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статья ДДС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатьяДДС.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СтатьяДДС.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

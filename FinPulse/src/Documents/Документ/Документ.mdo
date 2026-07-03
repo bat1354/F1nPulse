@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f34a350-38a8-4cd3-9c1f-e8e918f299e1">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f29a54f-9ac2-4c8f-b633-b36d4fae0b51">
   <producedTypes>
-    <objectType typeId="a2dc098f-eb58-4624-80ad-04c5e9f487fc" valueTypeId="cb3de09e-271f-4585-b3bb-838bb8f5ff45"/>
-    <refType typeId="f44b36b7-00c0-4570-a3af-c6fb079c5f76" valueTypeId="87cb1293-e5cc-4a33-8f37-4f33b5a555ca"/>
-    <selectionType typeId="4eecea39-7550-4d5f-97df-fb1ab154955c" valueTypeId="49c77202-a731-450b-80dd-71118e2a6f59"/>
-    <listType typeId="a79f55f4-17db-4ae0-99d2-013543403237" valueTypeId="1061ac9b-7454-4363-809b-8b74ad817fec"/>
-    <managerType typeId="d86e4782-7610-4583-9a6e-30eae2b08d0a" valueTypeId="04aab514-8d66-4fa9-9ced-0dd17e1be86f"/>
+    <objectType typeId="c8ee7162-d895-46ee-93e1-20dfe00f5e18" valueTypeId="fe0b22d6-3da6-4b85-9740-3f45b57673e0"/>
+    <refType typeId="9b3fc9dd-b75e-403c-ab60-542773a0f069" valueTypeId="e8552edc-b1be-41a2-bb09-bb9d1d6a916f"/>
+    <selectionType typeId="d0b44794-89c7-4adc-9a60-1fdf96ebe6f4" valueTypeId="bb54f0c7-8b4b-4d57-9fbc-94e881d523ee"/>
+    <listType typeId="18a752c0-7288-4225-8b5d-146ba4a92b94" valueTypeId="6680b9be-e212-4584-a2fa-c11567f9bad4"/>
+    <managerType typeId="ed740cff-d7d7-472a-94f3-41e762c63276" valueTypeId="e6c49583-ee11-41b2-8563-7f6a75923834"/>
   </producedTypes>
   <name>Документ</name>
   <synonym>
@@ -13,31 +13,27 @@
     <value>Документ</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.Документ.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.Документ.StandardAttribute.Description</inputByString>
+  <inputByString>Document.Документ.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <levelCount>2</levelCount>
-  <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
-  <codeType>String</codeType>
-  <codeAllowedLength>Variable</codeAllowedLength>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultPresentation>AsDescription</defaultPresentation>
-  <editType>InDialog</editType>
-  <choiceMode>BothWays</choiceMode>
-  <attributes uuid="c7ea6d93-0d3c-43c5-8c19-aad1af85508c">
-    <name>ТипПоступления</name>
+  <registerRecords>AccumulationRegister.ДенежныеСредства</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="a14cbab9-ba34-47d2-9bc6-a9b9428bea1b">
+    <name>ТипДвижения</name>
     <synonym>
       <key>ru</key>
-      <value>Тип поступления</value>
+      <value>Тип движения</value>
     </synonym>
     <type>
-      <types>EnumRef.ТипПоступления</types>
+      <types>EnumRef.ТипДдс</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -45,32 +41,29 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="4ad60a4f-e9d6-41a2-b95b-8b5d740bd7d3">
-    <name>Статья</name>
+  <attributes uuid="63d319cc-39a5-4ac8-81fb-039a8396e63a">
+    <name>СтатьяДДС</name>
     <synonym>
       <key>ru</key>
-      <value>Статья</value>
+      <value>Статья ДДС</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <types>CatalogRef.СтатьяДДС</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="5886c4b1-fd17-40b6-9a7d-44ed86e74fbe">
+  <attributes uuid="ed575e19-cab0-436b-a954-bd34ded2031e">
     <name>Валюта</name>
     <synonym>
       <key>ru</key>
       <value>Валюта</value>
     </synonym>
     <type>
-      <types>EnumRef.Валюта</types>
+      <types>CatalogRef.Валюта</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -78,7 +71,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="334fdb7d-ee7f-4127-b947-28171521fdc5">
+  <attributes uuid="8fa42d65-d4ef-4b21-867d-c3ea59ca03ee">
     <name>Сумма</name>
     <synonym>
       <key>ru</key>
@@ -97,17 +90,14 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="2e714f2a-92ba-4517-a054-733ddd8aaa29">
-    <name>Дата</name>
+  <attributes uuid="0586652e-fa48-4fda-a0fa-da43d50414be">
+    <name>Контрагент</name>
     <synonym>
       <key>ru</key>
-      <value>Дата</value>
+      <value>Контрагент</value>
     </synonym>
     <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
+      <types>CatalogRef.Контрагенты</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -115,42 +105,34 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="be25de88-44fd-46d4-8639-31a4444439bd">
-    <name>Контрагент</name>
-    <synonym>
-      <key>ru</key>
-      <value>Контрагент</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="722f003a-c136-4671-91f5-519ed3cb102e">
+  <attributes uuid="86d03248-cc14-45c6-b06d-c7159f8fd190">
     <name>Статус</name>
     <synonym>
       <key>ru</key>
       <value>Статус</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
+      <types>EnumRef.Статус</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-</mdclass:Catalog>
+  <attributes uuid="e7e9c949-9160-4791-93cb-6b27953802ed">
+    <name>Счёт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счёт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Счёт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

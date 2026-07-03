@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbc05776-31d6-4b76-aa41-8986a7f563dd">
+  <producedTypes>
+    <refType typeId="e006fd04-6aaf-4ded-9d67-1658b0591d41" valueTypeId="beab2894-9b6f-4619-9747-fd826793d3fa"/>
+    <listType typeId="b922db4f-1980-409e-ae74-1524be5cbfdf" valueTypeId="b81329ac-eacc-4558-a16e-38b5808dfb8a"/>
+    <managerType typeId="6e1729db-7372-4e6b-967b-7b0a0c7f8089" valueTypeId="95476a80-2894-45cb-bb1b-937a2dd5c1a9"/>
+  </producedTypes>
+  <name>Статус</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="08e5ba7c-ee90-4928-b10b-717d2d738719">
+    <name>План</name>
+    <synonym>
+      <key>ru</key>
+      <value>План</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dbdebe13-d50d-469e-9abf-59d6c12108c5">
+    <name>Факт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Факт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

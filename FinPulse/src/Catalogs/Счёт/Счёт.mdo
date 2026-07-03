@@ -37,7 +37,7 @@
       <value>Валюта</value>
     </synonym>
     <type>
-      <types>EnumRef.Валюта</types>
+      <types>CatalogRef.Валюта</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

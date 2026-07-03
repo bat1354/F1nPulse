@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad0c6953-f7c9-45a2-93ca-9c4d972c11ae">
+  <producedTypes>
+    <refType typeId="36f188e7-041b-4b85-876b-4da3cd0a05d5" valueTypeId="757c9547-bdd2-4541-b822-8a116d54c010"/>
+    <listType typeId="4d89861a-2a4a-4caf-88de-b741575da1bd" valueTypeId="06cf7900-f859-4d81-a686-7797a8b89bd3"/>
+    <managerType typeId="76b90e64-c20b-4405-848c-7feb89c8b4f8" valueTypeId="759f4eb2-d663-4c3b-9bcb-22a01e595a5a"/>
+  </producedTypes>
+  <name>ТипКалендаря</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип календаря</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c8cc6d92-e892-4736-be12-0ca28e39ccf8">
+    <name>Планируемый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планируемый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="774d2db1-5bb8-4a4e-939a-ffed00e323da">
+    <name>Реальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реальный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
