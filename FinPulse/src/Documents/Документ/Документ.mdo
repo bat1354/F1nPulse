@@ -23,24 +23,10 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Документ.Form.ИзменениеСтатьиДДС</defaultObjectForm>
   <registerRecords>AccumulationRegister.ДенежныеСредства</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="a14cbab9-ba34-47d2-9bc6-a9b9428bea1b">
-    <name>ТипДвижения</name>
-    <synonym>
-      <key>ru</key>
-      <value>Тип движения</value>
-    </synonym>
-    <type>
-      <types>EnumRef.ТипДдс</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="63d319cc-39a5-4ac8-81fb-039a8396e63a">
     <name>СтатьяДДС</name>
     <synonym>
@@ -135,4 +121,28 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="5f7891b1-1ab3-488b-bda4-599ce1f281df">
+    <name>СчётПолучателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счёт получателя</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Счёт</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="41fa96f9-cc2b-465c-9139-5bb1683cfa71">
+    <name>ИзменениеСтатьиДДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение статьи ДДС</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Document>

@@ -63,20 +63,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
-  <dimensions uuid="82dfa91a-19a1-4b34-be71-7ed3584d3d28">
-    <name>Контраагент</name>
-    <synonym>
-      <key>ru</key>
-      <value>Контраагент</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Контрагенты</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <useInTotals>true</useInTotals>
-  </dimensions>
   <dimensions uuid="a21e0410-ee69-4076-b06d-e2c644834728">
     <name>Валюта</name>
     <synonym>
@@ -85,21 +71,6 @@
     </synonym>
     <type>
       <types>CatalogRef.Валюта</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <denyIncompleteValues>true</denyIncompleteValues>
-    <fullTextSearch>Use</fullTextSearch>
-    <useInTotals>true</useInTotals>
-  </dimensions>
-  <dimensions uuid="fef685a4-f428-4436-8cc3-f95ac42b4aee">
-    <name>ТипДДс</name>
-    <synonym>
-      <key>ru</key>
-      <value>Тип ддс</value>
-    </synonym>
-    <type>
-      <types>EnumRef.ТипДдс</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

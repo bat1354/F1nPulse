@@ -46,7 +46,7 @@
   <catalogs>Catalog.Счёт</catalogs>
   <documents>Document.Документ</documents>
   <enums>Enum.Статус</enums>
-  <enums>Enum.ТипДдс</enums>
+  <enums>Enum.ТипДДС</enums>
   <enums>Enum.ТипКалендаря</enums>
   <reports>Report.ПлатёжныйКалендарь</reports>
   <reports>Report.СформироватьОтчёт</reports>
