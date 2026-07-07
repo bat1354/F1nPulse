@@ -39,6 +39,9 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <roles>Role.Админ</roles>
+  <roles>Role.Бухгалтер</roles>
+  <roles>Role.Сотрудник</roles>
   <catalogs>Catalog.Валюта</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
