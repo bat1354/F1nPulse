@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67177f24-6cfa-4ca3-b909-d7d6f82986eb">
+  <producedTypes>
+    <objectType typeId="1c50dec2-ca96-44e3-96d8-d09f209540db" valueTypeId="c73dab17-8ddd-43ef-8e35-f771bc521276"/>
+    <managerType typeId="a5e5974b-bd27-4b72-b435-ab5f0299a18e" valueTypeId="faf319b3-cd2e-4a90-9471-94cbf2b11f36"/>
+  </producedTypes>
+  <name>ЯКалендарь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Я календарь</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ЯКалендарь.Form.Формат</defaultForm>
+  <attributes uuid="7d761785-3ce0-4680-ac06-82a1a86b372c">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d65d8536-6b53-494e-a7f8-d672deb606ba">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="24f96238-1f46-4cb1-a69a-203ee587e8fa">
+    <name>Формат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формат</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

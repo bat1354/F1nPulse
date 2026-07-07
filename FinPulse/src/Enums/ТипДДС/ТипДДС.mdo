@@ -13,10 +13,10 @@
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="083c8eae-b137-407e-acf4-efb1ae057221">
-    <name>Приход</name>
+    <name>Доход</name>
     <synonym>
       <key>ru</key>
-      <value>Приход</value>
+      <value>Доход</value>
     </synonym>
   </enumValues>
   <enumValues uuid="f06b2827-4ee0-4054-ab59-ca6212476d57">

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20996ed9-7568-427a-af7a-ddc477e4565b">
+  <producedTypes>
+    <objectType typeId="2aafdf9b-df9d-404a-be4a-31026fc3e9b0" valueTypeId="c68d8527-9bbe-48a1-be50-5906dae00024"/>
+    <managerType typeId="c477415c-7d98-48eb-acaf-2a514e613d4d" valueTypeId="69836c36-b67f-4e48-b964-36693d2c224c"/>
+  </producedTypes>
+  <name>ПлатёжныйКалендарь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Платёжный календарь</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПлатёжныйКалендарь.Form.Форма</defaultForm>
+  <forms uuid="6ee4eec4-1b13-4857-a057-5f847a9b8ada">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

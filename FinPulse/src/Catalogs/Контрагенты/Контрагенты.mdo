@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f5d8ab5-609d-4700-a799-e7e633c39afa">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f5d8ab5-609d-4700-a799-e7e633c39afa">
   <producedTypes>
     <objectType typeId="70190bc0-aaef-4936-9144-713f8adbb71d" valueTypeId="eb4fb51f-fd97-417b-a048-aeb789107889"/>
     <refType typeId="706f32aa-59a2-47b5-bfc9-2c812a2fb9cd" valueTypeId="276a84c0-fbda-40be-8646-8a8786a29833"/>
@@ -30,4 +30,50 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="5f2a29de-2731-46c9-8df6-6aae1350b602">
+    <producedTypes>
+      <objectType typeId="7cc6d695-caeb-4c64-a70d-ea053f8057f9" valueTypeId="25236a03-407d-4d5c-87d5-8872c7fba909"/>
+      <rowType typeId="0805e1a8-2fa7-430e-b443-db939a785e5b" valueTypeId="0e63e0ef-2bca-4a6e-9ecc-6a3581369ce3"/>
+    </producedTypes>
+    <name>КонтактКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контакт контрагента</value>
+    </synonym>
+    <attributes uuid="4a882abd-98ed-4876-87d5-df941449d1ba">
+      <name>ТипКонтакта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип контакта</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6ab5ab04-88ff-4576-9d8e-57f7b533925f">
+      <name>Контакт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контакт</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
 </mdclass:Catalog>
