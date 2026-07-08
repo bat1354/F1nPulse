@@ -39,6 +39,9 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <roles>Role.Админ</roles>
+  <roles>Role.Бухгалтер</roles>
+  <roles>Role.Сотрудник</roles>
   <catalogs>Catalog.Валюта</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
@@ -48,7 +51,8 @@
   <enums>Enum.Статус</enums>
   <enums>Enum.ТипДДС</enums>
   <enums>Enum.ТипКалендаря</enums>
-  <reports>Report.ПлатёжныйКалендарь</reports>
+  <reports>Report.ОтчётОстаткиНаСчетах</reports>
+  <reports>Report.ОтчётПриходыИРасходы</reports>
   <dataProcessors>DataProcessor.ПлатёжныйКалендарь</dataProcessors>
   <accumulationRegisters>AccumulationRegister.ДенежныеСредства</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ПланДенежныеСредства</accumulationRegisters>
