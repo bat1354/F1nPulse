@@ -10,7 +10,17 @@
     <value>Отчёт остатки на счетах</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчётОстаткиНаСчетах.Form.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.ОтчётОстаткиНаСчетах.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="c2c20663-7c3c-4fa3-8286-fb3d181f5220">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="2fe84e6f-0947-46d9-a543-e64d73c4e521">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>

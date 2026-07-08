@@ -392,6 +392,36 @@
                 </backColor>
                 <representationInContextMenu>Auto</representationInContextMenu>
               </items>
+              <items xsi:type="form:Button">
+                <name>ПерейтиКГрафику</name>
+                <id>204</id>
+                <title>
+                  <key>ru</key>
+                  <value>График доходов/расходов</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>ПерейтиКГрафикуРасширеннаяПодсказка</name>
+                  <id>205</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Command.ПерейтиКГрафику</commandName>
+                <buttonImportance>Normal</buttonImportance>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
               <horizontalAlign>Left</horizontalAlign>
               <autoFill>true</autoFill>
             </autoCommandBar>
@@ -1303,6 +1333,20 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>КнопкаОтветИИ</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
+  </formCommands>
+  <formCommands>
+    <name>ПерейтиКГрафику</name>
+    <id>5</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПерейтиКГрафику</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

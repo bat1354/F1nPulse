@@ -10,7 +10,17 @@
     <value>Отчёт приходы и расходы</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчётПриходыИРасходы.Form.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.ОтчётПриходыИРасходы.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="8d6b529d-14e4-4e9a-9013-ae5dddb247a1">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="6764647d-570d-474f-98af-2bb776e047e6">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
