@@ -51,7 +51,8 @@
   <enums>Enum.Статус</enums>
   <enums>Enum.ТипДДС</enums>
   <enums>Enum.ТипКалендаря</enums>
-  <reports>Report.Отчет</reports>
+  <reports>Report.ОтчётОстаткиНаСчетах</reports>
+  <reports>Report.ОтчётПриходыИРасходы</reports>
   <dataProcessors>DataProcessor.ПлатёжныйКалендарь</dataProcessors>
   <accumulationRegisters>AccumulationRegister.ДенежныеСредства</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ПланДенежныеСредства</accumulationRegisters>

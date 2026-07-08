@@ -29,11 +29,16 @@
 			<dataPath>Валюта</dataPath>
 			<field>Валюта</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтатьяДДСТипДДС</dataPath>
+			<field>СтатьяДДСТипДДС</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ДенежныеСредстваОбороты.СтатьяДДС КАК СтатьяДДС,
 	ДенежныеСредстваОбороты.СуммаПриход КАК СуммаПриход,
-	ДенежныеСредстваОбороты.СуммаРасход КАК СуммаРасход
+	ДенежныеСредстваОбороты.СуммаРасход КАК СуммаРасход,
+	ДенежныеСредстваОбороты.СтатьяДДС.ТипДДС КАК СтатьяДДСТипДДС
 ИЗ
 	РегистрНакопления.ДенежныеСредства.Обороты КАК ДенежныеСредстваОбороты</query>
 	</dataSet>
@@ -112,7 +117,7 @@
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:groupItems>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
-						<dcsset:field>СтатьяДДС</dcsset:field>
+						<dcsset:field>СтатьяДДСТипДДС</dcsset:field>
 						<dcsset:groupType>Items</dcsset:groupType>
 						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 					</dcsset:item>
@@ -123,6 +128,21 @@
 				<dcsset:selection>
 					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>СтатьяДДС</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:item>
 			</dcsset:item>
 			<dcsset:item xsi:type="dcsset:StructureItemChart">
 				<dcsset:series>
