@@ -49,7 +49,6 @@
   <enums>Enum.ТипДДС</enums>
   <enums>Enum.ТипКалендаря</enums>
   <reports>Report.ПлатёжныйКалендарь</reports>
-  <reports>Report.ЯКалендарь</reports>
   <dataProcessors>DataProcessor.ПлатёжныйКалендарь</dataProcessors>
   <accumulationRegisters>AccumulationRegister.ДенежныеСредства</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ПланДенежныеСредства</accumulationRegisters>

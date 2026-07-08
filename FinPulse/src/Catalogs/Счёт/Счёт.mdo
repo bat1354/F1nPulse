@@ -64,48 +64,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="d8ad8d08-4a76-4b0c-96d7-b6995eabc9c1">
-    <name>Сумма</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сумма</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-        <scale>2</scale>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="d3559b25-73f4-4e0a-8646-9bc0d487b7dc">
     <name>Банк</name>
     <synonym>
       <key>ru</key>
       <value>Банк</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="33d939c2-a54d-4fc0-8d04-1396b4190ea3">
-    <name>НаименованиеПолучателя</name>
-    <synonym>
-      <key>ru</key>
-      <value>Наименование получателя</value>
     </synonym>
     <type>
       <types>String</types>
