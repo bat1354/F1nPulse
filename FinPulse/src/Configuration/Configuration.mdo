@@ -42,6 +42,8 @@
   <roles>Role.Админ</roles>
   <roles>Role.Бухгалтер</roles>
   <roles>Role.Сотрудник</roles>
+  <commonModules>CommonModule.APIМистральКлиент</commonModules>
+  <constants>Constant.КлючМистраль</constants>
   <catalogs>Catalog.Валюта</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>

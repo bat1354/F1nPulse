@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8254582-96ad-4135-97be-665527bf10a0">
+  <name>APIМистральКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>APIМистраль клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>
