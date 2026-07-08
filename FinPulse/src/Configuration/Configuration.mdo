@@ -39,6 +39,16 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.ДДС</subsystems>
+  <subsystems>Subsystem.Люди</subsystems>
+  <subsystems>Subsystem.Отчёты</subsystems>
+  <subsystems>Subsystem.Сервис</subsystems>
+  <subsystems>Subsystem.Финансы</subsystems>
+  <commonPictures>CommonPicture.ОбщаяКартинка</commonPictures>
+  <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
+  <commonPictures>CommonPicture.ОбщаяКартинка2</commonPictures>
+  <commonPictures>CommonPicture.ОбщаяКартинка3</commonPictures>
+  <commonPictures>CommonPicture.ОбщаяКартинка4</commonPictures>
   <roles>Role.Админ</roles>
   <roles>Role.Бухгалтер</roles>
   <roles>Role.Сотрудник</roles>
