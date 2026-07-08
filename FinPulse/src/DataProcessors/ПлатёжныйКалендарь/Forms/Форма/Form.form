@@ -354,6 +354,42 @@
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <placementArea>UserCmds</placementArea>
+                <backColor xsi:type="core:ColorDef">
+                  <red>54</red>
+                  <green>190</green>
+                  <blue>12</blue>
+                </backColor>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <items xsi:type="form:Button">
+                <name>КомандаОтветИИ</name>
+                <id>202</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>КомандаОтветИИРасширеннаяПодсказка</name>
+                  <id>203</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Command.КомандаОтветИИ</commandName>
+                <buttonImportance>Normal</buttonImportance>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <backColor xsi:type="core:ColorDef">
+                  <red>255</red>
+                  <green>144</green>
+                  <blue>31</blue>
+                </backColor>
                 <representationInContextMenu>Auto</representationInContextMenu>
               </items>
               <horizontalAlign>Left</horizontalAlign>
@@ -506,7 +542,6 @@
             <key>ru</key>
             <value>Рекомендации</value>
           </title>
-          <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -1250,6 +1285,24 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>Кнопка</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+    <selectedRowsUse>Auto</selectedRowsUse>
+  </formCommands>
+  <formCommands>
+    <name>КомандаОтветИИ</name>
+    <title>
+      <key>ru</key>
+      <value>Показать рекомендации ИИ</value>
+    </title>
+    <id>4</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КнопкаОтветИИ</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
