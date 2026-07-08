@@ -29,24 +29,6 @@
   <registerRecords>AccumulationRegister.ПланДенежныеСредства</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="23ba23ce-6d16-4da1-b6fa-d0167ceb5aa6">
-    <name>Наименование</name>
-    <synonym>
-      <key>ru</key>
-      <value>Наименование</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="63d319cc-39a5-4ac8-81fb-039a8396e63a">
     <name>СтатьяДДС</name>
     <synonym>
