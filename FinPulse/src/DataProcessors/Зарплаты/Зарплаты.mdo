@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c72b7f26-f365-4edd-81e0-dc0d599528c5">
+  <producedTypes>
+    <objectType typeId="86979be7-7a52-47c1-a084-f387e77e6db1" valueTypeId="24bde3f1-b4ae-4731-a195-e9417caee48a"/>
+    <managerType typeId="be0a6604-680f-4101-a3ec-11ce5842c9fb" valueTypeId="fcb2a59c-2c9e-4e89-b1f2-bf53d7202bd3"/>
+  </producedTypes>
+  <name>Зарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

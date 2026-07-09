@@ -40,6 +40,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ДДС</subsystems>
+  <subsystems>Subsystem.Документы</subsystems>
   <subsystems>Subsystem.Люди</subsystems>
   <subsystems>Subsystem.Отчёты</subsystems>
   <subsystems>Subsystem.Сервис</subsystems>
@@ -65,6 +66,7 @@
   <enums>Enum.ТипКалендаря</enums>
   <reports>Report.ОтчётОстаткиНаСчетах</reports>
   <reports>Report.ОтчётПриходыИРасходы</reports>
+  <dataProcessors>DataProcessor.Зарплаты</dataProcessors>
   <dataProcessors>DataProcessor.ПлатёжныйКалендарь</dataProcessors>
   <accumulationRegisters>AccumulationRegister.ДенежныеСредства</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ПланДенежныеСредства</accumulationRegisters>
